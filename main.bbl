@@ -1,0 +1,58 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{davis1981reflections}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d7fb92022851a484798e7b67c41c894}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Angela},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{5d7fb92022851a484798e7b67c41c894}
+      \strng{fullhash}{5d7fb92022851a484798e7b67c41c894}
+      \strng{bibnamehash}{5d7fb92022851a484798e7b67c41c894}
+      \strng{authorbibnamehash}{5d7fb92022851a484798e7b67c41c894}
+      \strng{authornamehash}{5d7fb92022851a484798e7b67c41c894}
+      \strng{authorfullhash}{5d7fb92022851a484798e7b67c41c894}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Black Scholar}
+      \field{number}{6}
+      \field{title}{Reflections on the Black Woman's Role in the Community of Slaves}
+      \field{volume}{12}
+      \field{year}{1981}
+      \true{nocite}
+      \field{pages}{2\bibrangedash 15}
+      \range{pages}{14}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
