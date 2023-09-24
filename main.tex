@@ -1,6 +1,12 @@
 \documentclass[12pt, a4paper, twoside]{article}
 % fonte 12, folha A4, impressão anverso (frente)
 
+\usepackage[utf8]{inputenc}
+% processar caracteres
+
+\usepackage{amsmath, amsfonts, amssymb}
+% ambientes, símbolos e fontes matemáticas.
+
 \usepackage{ac/scripts/meuscomandos}
 % meus comandos criados ajuda do bing.com e ChatGPT
 
@@ -14,12 +20,6 @@
 
 \usepackage{pdfpages}
 % inserir outras pages .pdf no LaTeX
-
-\usepackage[utf8]{inputenc}
-% processar caracteres
-
-\usepackage{amsmath, amsfonts, amssymb}
-% ambientes, símbolos e fontes matemáticas.
 
 \numberwithin{equation}{subsection}
 % enumerar equação de acordo com a seção que está
@@ -52,8 +52,6 @@
 \usepackage{graphicx}
 % inserir img no LaTeX
 
-\usepackage[utf8]{inputenc}
-
 \usepackage{array}
 % criar e manipular tabelas
 
@@ -67,7 +65,8 @@
 \usepackage[alf]{abntex2cite}
 % criar citaç e refer bibliog ABNT
 
-\usepackage{multirow} % https://www.ctan.org/pkg/multirow
+% \usepackage{multirow}
+% https://www.ctan.org/pkg/multirow
 % criar células +1 linha
 
 \usepackage{float} % https://www.ctan.org/pkg/float
@@ -117,7 +116,6 @@
 % gerenciar e format citaç e refer bibliogr de acordo com as normas da ABNT
 
 \addbibresource{parte-03/00-bibliografia}
-% \addbibresource{ref.bib}
 
 % \bibliographystyle{plain}
 % ja estou usando abnt (biblatex acima)
