@@ -17,5 +17,5 @@ options(tinytex.verbose = TRUE)
 tinytex::tlmgr_install("subfigure")
 
 tinytex::tlmgr_install("bm")
-tinytex::tlmgr_install("abntex2")
+tinytex::tlmgr_install("csquotes")
 

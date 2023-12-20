@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1703099976 "main.bcf" "main.bbl" "main" 1703099976 2
+["biber main"] 0 "main.bcf" "main.bbl" "main" 0 -1
   "./parte-03/00-bibliografia.bib" 1703029938 270 2440a95460ff9f6ee5e25418f1d43a5d ""
-  "main.bcf" 0 -1 0 "pdflatex"
+  "main.bcf" 1703100312 99739 b66ae3356edf75a1c13fc51de31c3171 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1703099974 "c:/Users/czarg/Documents/github/TCC-UnB-LaTex/main.tex" "main.pdf" "main" 1703099976 2
+["pdflatex"] 1703100311 "c:/Users/czarg/Documents/github/TCC-UnB-LaTex/main.tex" "main.pdf" "main" 1703100312 2
   "ac/logos/unb.png" 1703029938 1164 cfdaf565876884d7e9448e12216bc084 ""
   "ac/scripts/meuscomandos.sty" 1703029938 1470 b49fd517df9684993220d1de6bbc54e6 ""
   "c:/Users/czarg/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1702966542 1536 02c06700a42be0f5a28664c7273f82e7 ""
@@ -100,6 +100,9 @@
   "c:/Users/czarg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption3.sty" 1703098649 72619 ee90b6612147680fd73c3b1406a74245 ""
   "c:/Users/czarg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/collectbox/collectbox.sty" 1703098665 9124 59c3b56f1a073de66e3eea35f9c173c8 ""
   "c:/Users/czarg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/colortbl/colortbl.sty" 1703085744 12441 3b2a708337608012a865c7d9b7f05d28 ""
+  "c:/Users/czarg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/csquotes/csquotes.cfg" 1703100259 7068 06f8d141725d114847527a66439066b6 ""
+  "c:/Users/czarg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/csquotes/csquotes.def" 1703100259 21994 2bc2a882df92d97dbce35c06bb1d3541 ""
+  "c:/Users/czarg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/csquotes/csquotes.sty" 1703100259 62761 3c92d495a9e03d7254b9a3266aa17164 ""
   "c:/Users/czarg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/enumitem/enumitem.sty" 1703098558 51697 f8f08183cd2080d9d18a41432d651dfb ""
   "c:/Users/czarg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epigraph/epigraph.sty" 1703087217 4602 e947be1727d6ac747322008f8359ee17 ""
   "c:/Users/czarg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1702966542 13886 d1306dcf79a944f6988e688c1785f9ce ""
@@ -159,16 +162,16 @@
   "c:/Users/czarg/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk" 1703099062 12644 65df305a53c9fc273c4b22a4c5d448b6 ""
   "c:/Users/czarg/AppData/Roaming/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt" 1703099909 6811184 3797ddb8ab7120ac6e612a5ac1b6d026 ""
   "c:/Users/czarg/AppData/Roaming/TinyTeX/texmf.cnf" 1702966516 903 164c5b127cd0d6dc91abad2f62421ea2 ""
-  "c:/Users/czarg/Documents/github/TCC-UnB-LaTex/main.tex" 1703099974 10231 88ea778e118ed2270103ec55965c5b0a ""
-  "main.aux" 0 -1 0 "pdflatex"
+  "c:/Users/czarg/Documents/github/TCC-UnB-LaTex/main.tex" 1703100238 10230 eb891cef1fa429f0f60bc53f7f2bc23e ""
+  "main.aux" 1703100312 10895 d90d01fdc1877c477cfb652b4cbef8ee "pdflatex"
   "main.bbl" 0 -1 0 "biber main"
-  "main.lof" 0 -1 0 "pdflatex"
-  "main.lot" 0 -1 0 "pdflatex"
-  "main.tex" 1703099974 10231 88ea778e118ed2270103ec55965c5b0a ""
-  "main.toc" 0 -1 0 "pdflatex"
-  "parte-00/00-capa.aux" 1703099975 4232 bf34cf33877b186ab429af0ffd7dcd2b "pdflatex"
+  "main.lof" 1703100312 49 be68a9be343412a8f70306b7329a14ab "pdflatex"
+  "main.lot" 1703100312 172 f7c14d040d7a03b8f81ba30c129e9767 "pdflatex"
+  "main.tex" 1703100238 10230 eb891cef1fa429f0f60bc53f7f2bc23e ""
+  "main.toc" 1703100312 2824 1b76374478cd02f9454e10edf7eaa239 "pdflatex"
+  "parte-00/00-capa.aux" 1703100312 4232 bf34cf33877b186ab429af0ffd7dcd2b "pdflatex"
   "parte-00/00-capa.tex" 1703029938 648 8fad9cbd2623b3af9b25162b7f1abd67 ""
-  "parte-00/01-rosto.aux" 1703099976 4080 795db1cc6ba9beaa62080170a8eb6077 "pdflatex"
+  "parte-00/01-rosto.aux" 1703100312 4080 795db1cc6ba9beaa62080170a8eb6077 "pdflatex"
   "parte-00/01-rosto.tex" 1703029938 559 1a5308041208ba804bcd4af391131c3d ""
   "parte-00/02-errata.tex" 1703029938 0 d41d8cd98f00b204e9800998ecf8427e ""
   "parte-00/03-aprovacao.tex" 1703029938 829 d1a8d33a78ae916c4473be6f51b6c3d7 ""
