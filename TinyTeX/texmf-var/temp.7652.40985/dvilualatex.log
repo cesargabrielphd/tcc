@@ -1,0 +1,248 @@
+This is LuaTeX, Version 1.17.0 (TeX Live 2023)  (INITEX)  20 DEC 2023 12:15
+ restricted system commands enabled.
+**dvilualatex.ini
+(c:/Users/czarg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tex-ini-files/dvilualatex.ini (c:/Users/czarg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tex-ini-files/lualatex.ini (c:/Users/czarg/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/tex-ini-files/luatexconfig.tex (c:/Users/czarg/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/tex-ini-files/pdftexconfig.tex)) (c:/Users/czarg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/latex.ltx (c:/Users/czarg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/texsys.cfg)
+\openout15 = texsys.aux
+
+./texsys.aux found
+
+
+\@currdir set to: ./.
+
+
+Assuming \openin and \input 
+have the same search path.
+
+
+Defining UNIX/DOS style filename parser.
+
+catcodes, registers,
+\@inputcheck=\read0
+\@unused=\write0
+\maxdimen=\dimen10
+\hideskip=\skip10
+\p@=\dimen11
+\z@=\dimen12
+\z@skip=\skip11
+\voidb@x=\box10
+ parameters,
+\tracingstacklevels=\count23
+\normalbaselineskip=\skip12
+\normallineskip=\skip13
+\normallineskiplimit=\dimen13
+\interfootnotelinepenalty=\count24
+\strutbox=\box11
+\LaTeXReleaseInfo=\toks10
+
+LaTeX2e <2023-11-01>
+\catcodetable@initex=\catcodetable1
+\catcodetable@string=\catcodetable2
+\catcodetable@latex=\catcodetable3
+\catcodetable@atletter=\catcodetable4
+(c:/Users/czarg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.ltx (c:/Users/czarg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2023-12-11 L3 programming layer (code)
+\@expl@luadata@bytecode=\luabytecode1
+Lua function __lua_load_module_p:n = 1
+Inserting `ltx.luadata' in `pre_dump'.
+Lua function tex_strcmp:D = 2
+Lua function tex_Ucharcat:D = 3
+Lua function tex_filesize:D = 4
+Lua function tex_mdfivesum:D = 5
+Lua function tex_filemoddate:D = 6
+Lua function tex_filedump:D = 7
+Lua function __sys_shell_now:e = 8
+Lua function __sys_shell_shipout:e = 9
+Lua function __sys_elapsedtime: = 10
+Lua function __token_if_primitive_lua:N = 11
+Lua function __intarray:w = 12
+Lua function __intarray_gset_count:Nw = 13
+Lua function intarray_count:N = 14
+Lua function __intarray_gset:wF = 15
+Lua function __intarray_gset:w = 16
+Lua function intarray_gzero:N = 17
+Lua function __intarray_item:wF = 18
+Lua function __intarray_item:w = 19
+Lua function __intarray_to_clist:Nn = 20
+Lua function __intarray_range_to_clist:w = 21
+Lua function __intarray_gset_range:w = 22
+\c_max_int=\count25
+\l_tmpa_int=\count26
+\l_tmpb_int=\count27
+\g_tmpa_int=\count28
+\g_tmpb_int=\count29
+\l__seq_internal_a_int=\count30
+\l__seq_internal_b_int=\count31
+\g__kernel_prg_map_int=\count32
+\c__ior_term_noprompt_ior=\count33
+\c_log_iow=\count34
+\l_iow_line_count_int=\count35
+\l__iow_line_target_int=\count36
+\l__iow_one_indent_int=\count37
+\l__iow_indent_int=\count38
+\c_zero_dim=\dimen14
+\c_max_dim=\dimen15
+\l_tmpa_dim=\dimen16
+\l_tmpb_dim=\dimen17
+\g_tmpa_dim=\dimen18
+\g_tmpb_dim=\dimen19
+\c_zero_skip=\skip14
+\c_max_skip=\skip15
+\l_tmpa_skip=\skip16
+\l_tmpb_skip=\skip17
+\g_tmpa_skip=\skip18
+\g_tmpb_skip=\skip19
+\c_zero_muskip=\muskip10
+\c_max_muskip=\muskip11
+\l_tmpa_muskip=\muskip12
+\l_tmpb_muskip=\muskip13
+\g_tmpa_muskip=\muskip14
+\g_tmpb_muskip=\muskip15
+\l_keys_choice_int=\count39
+\l__intarray_loop_int=\count40
+\g__intarray_table_int=\count41
+\l__intarray_bad_index_int=\count42
+\c__fp_leading_shift_int=\count43
+\c__fp_middle_shift_int=\count44
+\c__fp_trailing_shift_int=\count45
+\c__fp_big_leading_shift_int=\count46
+\c__fp_big_middle_shift_int=\count47
+\c__fp_big_trailing_shift_int=\count48
+\c__fp_Bigg_leading_shift_int=\count49
+\c__fp_Bigg_middle_shift_int=\count50
+\c__fp_Bigg_trailing_shift_int=\count51
+\l__fp_function_arg_int=\count52
+\g__fp_array_int=\count53
+\l__fp_array_loop_int=\count54
+\l__bitset_internal_int=\count55
+\g__cctab_allocate_int=\count56
+\g__cctab_internal_cctab=\catcodetable5
+\c_initex_cctab=\catcodetable6
+\c_other_cctab=\catcodetable7
+\g__cctab_internali_cctab=\catcodetable8
+\c_str_cctab=\catcodetable9
+\g_tmpa_cctab=\catcodetable10
+\g_tmpb_cctab=\catcodetable11
+\l__sort_length_int=\count57
+\l__sort_min_int=\count58
+\l__sort_top_int=\count59
+\l__sort_max_int=\count60
+\l__sort_true_max_int=\count61
+\l__sort_block_int=\count62
+\l__sort_begin_int=\count63
+\l__sort_end_int=\count64
+\l__sort_A_int=\count65
+\l__sort_B_int=\count66
+\l__sort_C_int=\count67
+\l__str_modulo_int=\count68
+\l__tl_analysis_normal_int=\count69
+\l__tl_analysis_index_int=\count70
+\l__tl_analysis_nesting_int=\count71
+\l__tl_analysis_type_int=\count72
+\l__tl_peek_charcode_int=\count73
+\l__regex_internal_a_int=\count74
+\l__regex_internal_b_int=\count75
+\l__regex_internal_c_int=\count76
+\l__regex_balance_int=\count77
+\l__regex_group_level_int=\count78
+\l__regex_mode_int=\count79
+\c__regex_cs_in_class_mode_int=\count80
+\c__regex_cs_mode_int=\count81
+\l__regex_catcodes_int=\count82
+\l__regex_default_catcodes_int=\count83
+\c__regex_catcode_L_int=\count84
+\c__regex_catcode_O_int=\count85
+\c__regex_catcode_A_int=\count86
+\c__regex_all_catcodes_int=\count87
+\l__regex_show_lines_int=\count88
+\l__regex_min_state_int=\count89
+\l__regex_max_state_int=\count90
+\l__regex_left_state_int=\count91
+\l__regex_right_state_int=\count92
+\l__regex_capturing_group_int=\count93
+\g__regex_case_int=\count94
+\l__regex_case_max_group_int=\count95
+\l__regex_min_pos_int=\count96
+\l__regex_max_pos_int=\count97
+\l__regex_curr_pos_int=\count98
+\l__regex_start_pos_int=\count99
+\l__regex_success_pos_int=\count100
+\l__regex_curr_char_int=\count101
+\l__regex_curr_catcode_int=\count102
+\l__regex_last_char_int=\count103
+\l__regex_last_char_success_int=\count104
+\l__regex_case_changed_char_int=\count105
+\l__regex_curr_state_int=\count106
+\l__regex_step_int=\count107
+\l__regex_min_thread_int=\count108
+\l__regex_max_thread_int=\count109
+\l__regex_replacement_csnames_int=\count110
+\l__regex_match_count_int=\count111
+\l__regex_min_submatch_int=\count112
+\l__regex_submatch_int=\count113
+\l__regex_zeroth_submatch_int=\count114
+\l__regex_added_begin_int=\count115
+\l__regex_added_end_int=\count116
+\g__regex_trace_regex_int=\count117
+\c_empty_box=\box12
+\l_tmpa_box=\box13
+\l_tmpb_box=\box14
+\g_tmpa_box=\box15
+\g_tmpb_box=\box16
+\l__box_top_dim=\dimen20
+\l__box_bottom_dim=\dimen21
+\l__box_left_dim=\dimen22
+\l__box_right_dim=\dimen23
+\l__box_top_new_dim=\dimen24
+\l__box_bottom_new_dim=\dimen25
+\l__box_left_new_dim=\dimen26
+\l__box_right_new_dim=\dimen27
+\l__box_internal_box=\box17
+\l__color_internal_int=\count118
+\g__color_model_int=\count119
+\l__coffin_internal_box=\box18
+\l__coffin_internal_dim=\dimen28
+\l__coffin_offset_x_dim=\dimen29
+\l__coffin_offset_y_dim=\dimen30
+\l__coffin_x_dim=\dimen31
+\l__coffin_y_dim=\dimen32
+\l__coffin_x_prime_dim=\dimen33
+\l__coffin_y_prime_dim=\dimen34
+\c_empty_coffin=\box19
+\l__coffin_aligned_coffin=\box20
+\l__coffin_aligned_internal_coffin=\box21
+\l_tmpa_coffin=\box22
+\l_tmpb_coffin=\box23
+\g_tmpa_coffin=\box24
+\g_tmpb_coffin=\box25
+\l__coffin_bounding_shift_dim=\dimen35
+\l__coffin_left_corner_dim=\dimen36
+\l__coffin_right_corner_dim=\dimen37
+\l__coffin_bottom_corner_dim=\dimen38
+\l__coffin_top_corner_dim=\dimen39
+\l__coffin_scaled_total_height_dim=\dimen40
+\l__coffin_scaled_width_dim=\dimen41
+\c__coffin_empty_coffin=\box26
+\l__coffin_display_coffin=\box27
+\l__coffin_display_coord_coffin=\box28
+\l__coffin_display_pole_coffin=\box29
+\l__coffin_display_offset_dim=\dimen42
+\l__coffin_display_x_dim=\dimen43
+\l__coffin_display_y_dim=\dimen44
+\g__codepoint_data_ior=\read1
+
+! Interruption.
+\__clist_map_function_end:w ...s__clist_stop #1{#2
+                                                  }\__clist_map_function_end...
+l.33035       }
+             %
+? 
+! Emergency stop.
+\__clist_map_function_end:w ...s__clist_stop #1{#2
+                                                  }\__clist_map_function_end...
+l.33035       }
+             %
+End of file on the terminal!
+
+!  ==> Fatal error occurred, bad output DVI file produced!
+No pages of output.
+
