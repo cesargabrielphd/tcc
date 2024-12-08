@@ -1,6 +1,6 @@
 \documentclass[12pt, a4paper, twoside]{article}
 % fonte 12, folha A4, impressão anverso (frente)
-
+\raggedbottom
 \usepackage[utf8]{inputenc}
 % processar caracteres
 
@@ -46,7 +46,6 @@
  
 \usepackage{bookmark}
 
-\usepackage[utf8]{inputenc}
 %
 
 \usepackage{epigraph}
@@ -58,7 +57,7 @@
 \usepackage{array}
 % criar e manipular tabelas
 
-\usepackage[colorlinks=true, allcolors=black]{hyperref}
+% \usepackage[colorlinks=true, allcolors=black]{hyperref}
 % criar links clicáveis (refer cruzadas, citações ou URLs. )
 
 % \usepackage[brazilian,hyperpageref]{backref}
@@ -114,8 +113,10 @@
 % ajuda a programar em LaTeX + fácil e poderosa. Ele tem muitas funções % que permitem fazer coisas como modificar comandos existentes, testar % % condições, criar listas e variáveis lógicas. 
 
 \usepackage[style=abnt]{biblatex}
-% gerenciar e format citaç e refer bibliogr de acordo com as normas da ABNT
-
+\usepackage[style=abnt, backend=biber]{biblatex}
+\addbibresource{main.bib}
+% Ensure that main.bib exists and contains valid bibliography entries
+% Ensure that main.bib exists and contains valid bibliography entries
 \numberwithin{equation}{subsection}
 % enumerar equação de acordo com a seção que está
 
@@ -370,7 +371,7 @@
 
 %%%%%%%%%% REFERÊNCIAS %%%%%%%%%%
 \section{Referências}
-\printbibliography
+% \printbibliography
 \nocite{*} % força a citação aparecer no documento
 \newpage
 

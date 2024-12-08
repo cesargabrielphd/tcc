@@ -1,9 +1,0 @@
-name chktex.windows
-category TLCore
-revision 65891
-shortdesc windows files of chktex
-containersize 54244
-containerchecksum 5625beb5736cecb7713b9d9769ac77c067677368fd828b913f0ac796149e4814af1865878cbae34766d38de0a5e8bd692b3b4786c7f8d43d1e14d5b9db019e3e
-binfiles arch=windows size=31
- bin/windows/chktex.exe
- bin/windows/deweb.exe
