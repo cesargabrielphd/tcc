@@ -1,85 +1,92 @@
 ---
 title: "Instalação e Gerenciamento de Pacotes LaTeX com TinyTeX"
-author: "Seu Nome"
+author: "César Gabriel"
 date: "`r Sys.Date()`"
-output: html_document
+output: pdf_document
 ---
 
-# Instalar o Pacote e o TinyTeX
+```{r setup, include=FALSE, cache=TRUE}
+options(repos = c(CRAN = "https://cran.rstudio.com/"))
+if (!require("rmarkdown")) {
+  install.packages("rmarkdown")
+}
+```
+
+# Execute o Visual Studio Code como Administrador
+
+## Instalar o Pacote e o TinyTeX
 
 Primeiro, vamos instalar o pacote `tinytex` e o TinyTeX:
-```{R}
-install.packages("tinytex")
-tinytex::install_tinytex(dir = "C:/Program Files/TinyTex")
+```{R, cache=TRUE, eval=FALSE}
+if (!require("tinytex")) {
+  tinytex::install_tinytex(dir = "C:/Program Files/TinyTex", force = TRUE)
+} else {
+  library(tinytex)
+}
 ```
 Aceite a opção informada com Y.
 Adicione o Bin do TinyTex nas variáveis de ambiente do Windows.
 
-# Desinstalar TinyTeX
+## Desinstalar TinyTeX
 Para desinstalar o TinyTeX, rode:
 
-```{R}
-# tinytex::uninstall_tinytex()
+```{R, cache=TRUE, eval=FALSE}
+tinytex::uninstall_tinytex()
 ```
 
-# Resolver Problemas
+## Resolver Problemas
 Para tentar resolver problemas, atualize os pacotes e o TinyTeX:
 
-```{R}
+```{R, cache=TRUE}
 update.packages(ask = FALSE, checkBuilt = TRUE)
 Sys.setenv(PATH = paste("C:/Program Files/TinyTex/bin/windows", Sys.getenv("PATH"), sep = ";"))
 tinytex::tlmgr_update()
 ```
 
-# Reinstalar o TinyTex
+## Reinstalar o TinyTex
 Se necessário, reinstale o TinyTeX:
 
-```{R}
+```{R, eval=FALSE, cache=TRUE}
 tinytex::reinstall_tinytex()
 ```
 
-# Instalar Pacotes Específicos
+## Instalar Pacotes Específicos
 Talvez seja necessário instalar alguns pacotes do documento como abaixo:
 
-```{R}
+```{R, cache=TRUE}
 tinytex::tlmgr_install("subfigure")
 tinytex::tlmgr_install("bm")
+tinytex::tlmgr_install("babel-portuges")
 ```
 
-# Compilar Documento LaTeX
+## Compilar Documento LaTeX
 Para compilar o documento LaTeX:
 
-```{R}
+```{R, eval=FALSE, cache=TRUE}
 tinytex::latexmk("main.tex")
 ```
 
-# Função para Analisar e Instalar Pacotes de um Arquivo .tex
+## Função para Analisar e Instalar Pacotes de um Arquivo .tex
 A função abaixo analisa um arquivo .tex, busca os valores dentro de `\usepackage{}` e instala todos de uma vez:
 
-```{R}
+```{R, cache=TRUE,}
 instalar_pacotes_tex <- function(file_path) {
-  # Ler o conteúdo do arquivo .tex
   tex_content <- readLines(file_path)
-  
-  # Buscar os pacotes dentro de \usepackage{}
   pacotes <- unlist(regmatches(tex_content, gregexpr("\\\\usepackage\\{([^}]*)\\}", tex_content)))
   pacotes <- gsub("\\\\usepackage\\{|\\}", "", pacotes)
-  
-  # Instalar os pacotes encontrados
   if (length(pacotes) > 0) {
     tinytex::tlmgr_install(pacotes)
   } else {
     message("Nenhum pacote encontrado no arquivo .tex")
   }
 }
-
-# Exemplo de uso da função
+# instalar os pacotes necessários do arquivo main.tex
 instalar_pacotes_tex("main.tex")
 ```
 
-# Caminho do LaTeX
+## Caminho do LaTeX
 O caminho onde o LaTeX está instalado:
 
-```{R}
-print("C:\Program Files\TinyTex\bin\windows\pdflatex.exe")
+```{R, eval=FALSE, cache=TRUE}
+"C:\Program Files\TinyTex\bin\windows\pdflatex.exe"
 ```

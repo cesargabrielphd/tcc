@@ -1,4 +1,6 @@
 .vscode/
+*_cache/
+*.html
 *.fdb_latexmk
 *.synctex.gz
 *.log
