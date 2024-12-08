@@ -240,10 +240,10 @@
   /* LINGUAGEM R */
   "r.bracketedPaste": true,
   "r.plot.useHttpgd": true,
-  /*   "r.rpath.windows": "C:\\Program Files\\R\\bin\\R.exe", */
-  "r.rpath.windows": "C:\\Users\\cesar.oliveira\\AppData\\Local\\Programs\\R\\R-4.4.1\\bin\\R.exe",
-  /*   "r.rterm.windows": "C:\\Program Files\\R\\bin\\R.exe", */
-  "r.rterm.windows": "C:\\Users\\cesar.oliveira\\AppData\\Local\\Programs\\R\\R-4.4.1\\bin\\R.exe",
+  "r.rpath.windows": "C:\\Program Files\\R\\bin\\R.exe",
+/*   "r.rpath.windows": "C:\\Users\\cesar.oliveira\\AppData\\Local\\Programs\\R\\R-4.4.1\\bin\\R.exe", */
+  "r.rterm.windows": "C:\\Program Files\\R\\bin\\R.exe",
+/*   "r.rterm.windows": "C:\\Users\\cesar.oliveira\\AppData\\Local\\Programs\\R\\R-4.4.1\\bin\\R.exe", */
 
   /* CONFIGURAÇÃO LaTeX */
   "workbench.editorAssociations": {
@@ -254,7 +254,8 @@
   "latex-workshop.latex.tools": [
     {
       "name": "pdflatex",
-      "command": "C:\\Users\\cesar.oliveira\\AppData\\Roaming\\TinyTeX\\bin\\win32\\pdflatex.exe",
+/*       "command": "C:\\Users\\cesar.oliveira\\AppData\\Roaming\\TinyTeX\\bin\\win32\\pdflatex.exe", */
+      "command": "TinyTeX\\bin\\windows\\pdflatex.exe",
       "args": ["-synctex=1", "-interaction=nonstopmode", "%DOC%"]
     }
   ],

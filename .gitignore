@@ -1,3 +1,4 @@
+.vscode/
 *.fdb_latexmk
 *.synctex.gz
 *.log
