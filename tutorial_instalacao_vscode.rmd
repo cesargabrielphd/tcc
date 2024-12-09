@@ -57,6 +57,7 @@ Talvez seja necessário instalar alguns pacotes do documento como abaixo:
 tinytex::tlmgr_install("subfigure")
 tinytex::tlmgr_install("bm")
 tinytex::tlmgr_install("babel-portuges")
+tinytex::tlmgr_install("pdflscape")
 ```
 
 ## Compilar Documento LaTeX

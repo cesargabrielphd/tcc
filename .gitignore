@@ -1,5 +1,6 @@
 .vscode/
 *_cache/
+*.synctex(busy)
 *.html
 *.fdb_latexmk
 *.synctex.gz
